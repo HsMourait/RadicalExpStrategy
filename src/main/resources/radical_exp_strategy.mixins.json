@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.hsmourait.radical_exp_strategy.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["ExperienceOrbMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

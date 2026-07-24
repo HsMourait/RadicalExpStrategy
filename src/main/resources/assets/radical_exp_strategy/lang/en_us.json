@@ -1,0 +1,13 @@
+{
+  "radical_exp_strategy.configuration.title": "Radical Exp Strategy Configs",
+  "radical_exp_strategy.configuration.section.radical.exp.strategy.common.toml": "Radical Exp Strategy Configs",
+  "radical_exp_strategy.configuration.section.radical.exp.strategy.common.toml.title": "Radical Exp Strategy Configs",
+  "radical_exp_strategy.configuration.experienceAbsorbDelay": "Experience Absorb Delay",
+  "radical_exp_strategy.configuration.experienceAbsorbDelay.tooltip": "How many ticks the player must wait before picking up another experience orb. Default: 2 (vanilla).",
+  "radical_exp_strategy.configuration.directXpAbsorb": "Direct XP Absorption",
+  "radical_exp_strategy.configuration.directXpAbsorb.tooltip": "When enabled, experience orbs from player kills (mobs) are directly added to the player's XP bar without spawning an orb entity.",
+  "radical_exp_strategy.configuration.aggressiveXpMerge": "Aggressive XP Merge",
+  "radical_exp_strategy.configuration.aggressiveXpMerge.tooltip": "When enabled, all experience orbs can merge regardless of value. Merged orbs accumulate total XP for one-big-pickup.",
+  "radical_exp_strategy.configuration.maxXpValue": "Max XP Value Per Orb",
+  "radical_exp_strategy.configuration.maxXpValue.tooltip": "Maximum experience value a single orb fragment can hold. Vanilla: 2477."
+}

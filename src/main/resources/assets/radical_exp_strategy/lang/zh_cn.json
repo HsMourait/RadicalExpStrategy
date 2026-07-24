@@ -1,0 +1,13 @@
+{
+  "radical_exp_strategy.configuration.title": "激进经验策略配置",
+  "radical_exp_strategy.configuration.section.radical.exp.strategy.common.toml": "激进经验策略配置",
+  "radical_exp_strategy.configuration.section.radical.exp.strategy.common.toml.title": "激进经验策略配置",
+  "radical_exp_strategy.configuration.experienceAbsorbDelay": "经验吸收间隔",
+  "radical_exp_strategy.configuration.experienceAbsorbDelay.tooltip": "玩家拾取一个经验球后需要等待多少 tick 才能拾取下一个。\n原版为 2 ticks。",
+  "radical_exp_strategy.configuration.directXpAbsorb": "经验直连模式",
+  "radical_exp_strategy.configuration.directXpAbsorb.tooltip": "因玩家杀死实体所产生的经验将不会掉落为经验球，而是直接添加至对应玩家。",
+  "radical_exp_strategy.configuration.aggressiveXpMerge": "激进合并策略",
+  "radical_exp_strategy.configuration.aggressiveXpMerge.tooltip": "启用后所有经验球都可合并，累积总经验后一次拾取。",
+  "radical_exp_strategy.configuration.maxXpValue": "最大经验球经验值",
+  "radical_exp_strategy.configuration.maxXpValue.tooltip": "单个经验碎片可持有的最大经验值。原版：2477。"
+}
