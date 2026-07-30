@@ -1,6 +1,5 @@
 package com.hsmourait.radical_exp_strategy;
 
-import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -24,8 +23,6 @@ public class RadicalExpStrategyClient {
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
-        // Some client setup code
-        RadicalExpStrategy.LOGGER.info("HELLO FROM CLIENT SETUP");
-        RadicalExpStrategy.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+        RadicalExpStrategy.LOGGER.debug("RadicalExpStrategy client setup complete.");
     }
 }

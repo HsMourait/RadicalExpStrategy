@@ -29,6 +29,9 @@ public class RadicalExpStrategy {
 
         // Register event handlers
         PlayerXpRedirectHandler.register();
+
+        // Register game commands
+        RadicalExpCommand.register();
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {

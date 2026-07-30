@@ -74,8 +74,7 @@ public class Config {
      * 当配置文件被加载或更改时调用
      */
     @SubscribeEvent
-    static void onLoad(final ModConfigEvent event) {
-        // 配置已自动重新加载，无需额外操作
+    static void onLoad(final ModConfigEvent.Loading event) {
         RadicalExpStrategy.LOGGER.debug("Configuration loaded: experienceAbsorbDelay = {}", EXPERIENCE_ABSORB_DELAY.get());
         RadicalExpStrategy.LOGGER.debug("Configuration loaded: aggressiveXpMerge = {}, maxXpValue = {}",
                 AGGRESSIVE_XP_MERGE.get(), MAX_XP_VALUE.get());

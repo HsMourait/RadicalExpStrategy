@@ -9,5 +9,11 @@
   "radical_exp_strategy.configuration.aggressiveXpMerge": "激进合并策略",
   "radical_exp_strategy.configuration.aggressiveXpMerge.tooltip": "启用后所有经验球都可合并，累积总经验后一次拾取。",
   "radical_exp_strategy.configuration.maxXpValue": "最大经验球经验值",
-  "radical_exp_strategy.configuration.maxXpValue.tooltip": "单个经验碎片可持有的最大经验值。原版：2477。"
+  "radical_exp_strategy.configuration.maxXpValue.tooltip": "单个经验碎片可持有的最大经验值。原版：2477。",
+
+  "commands.radicalexp.description": "运行时修改 RadicalExpStrategy 配置。",
+  "commands.radicalexp.usage": "/radicalexp [选项] [值] - 查看或修改模组设置。",
+  "commands.radicalexp.show": "§6=== RadicalExpStrategy 当前配置 ===",
+  "commands.radicalexp.set.success": "§7%s§r 已设为 §e%s",
+  "commands.radicalexp.set.usage": "用法：/radicalexp <选项名> <值>"
 }

@@ -9,5 +9,11 @@
   "radical_exp_strategy.configuration.aggressiveXpMerge": "Aggressive XP Merge",
   "radical_exp_strategy.configuration.aggressiveXpMerge.tooltip": "When enabled, all experience orbs can merge regardless of value. Merged orbs accumulate total XP for one-big-pickup.",
   "radical_exp_strategy.configuration.maxXpValue": "Max XP Value Per Orb",
-  "radical_exp_strategy.configuration.maxXpValue.tooltip": "Maximum experience value a single orb fragment can hold. Vanilla: 2477."
+  "radical_exp_strategy.configuration.maxXpValue.tooltip": "Maximum experience value a single orb fragment can hold. Vanilla: 2477.",
+
+  "commands.radicalexp.description": "Modify RadicalExpStrategy configuration at runtime.",
+  "commands.radicalexp.usage": "/radicalexp [option] [value] - View or change mod settings.",
+  "commands.radicalexp.show": "§6=== RadicalExpStrategy Current Config ===",
+  "commands.radicalexp.set.success": "§7%s§r has been set to §e%s",
+  "commands.radicalexp.set.usage": "Usage: /radicalexp <option> <value>"
 }
